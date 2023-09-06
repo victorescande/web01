@@ -1,0 +1,21 @@
+.primary-navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    margin-inline-end: 8rem;
+    gap: 2rem;
+}
+
+
+nav{
+    display:flex;
+    justify-content: flex-end;
+}
+.nav-link {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+.picture1{
+    display: flex;
+    justify-content: center;
+}
