@@ -2,20 +2,61 @@
     display: flex;
     flex-wrap: nowrap;
     list-style-type: none;
-    margin-inline-end: 8rem;
+    margin-inline-end: 2rem;
     gap: 2rem;
 }
 
 
 nav{
-    display:flex;
+    display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 .nav-link {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue;
+    color: rgb(202, 21, 127);
+    font-size: larger;
 }
+
 .picture1{
+    max-width: 80%;
+}
+
+.picture1:hover { 
+    animation: moveBox 3s ease-in-out infinite;
+}
+
+@keyframes moveBox {
+    0% {
+        transform: translate(0%), 
+    }
+
+    25% {
+        transform: translateX(70%);
+    }
+    50%{
+        transform: translateY(70%) translateX(70%);
+    }
+    75% {
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateX(70%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+
+.divgrid1{
     display: flex;
     justify-content: center;
+}
+.logomenu{
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 90px;
 }

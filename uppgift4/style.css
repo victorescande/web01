@@ -1,0 +1,65 @@
+body {
+    height: 4000px;
+  }
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.primary-navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    margin-inline-end: 2rem;
+    gap: 2rem;
+}
+
+.nav-link {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: hotpink;
+    font-size: larger;
+}
+
+.nav-link:hover{
+    color: aquamarine;
+}
+.nav-link:active{
+    color: rgb(25, 0, 255);
+}
+
+.bild1{
+    margin: 90px;
+    max-width: 20%;
+    animation: drakani 3s ease-in-out infinite;
+}
+@keyframes drakani {
+    0% {
+        transform: translate(0%), 
+    }
+
+    25% {
+        transform: translateX(350%);
+    }
+    50%{
+        transform: translateY(250%) translateX(350%);
+    }
+    75% {
+        transform: translateY(250%) translateX(0%)
+    }
+
+}
+
+
+
+.video1{
+    margin: 0%;
+    padding: 0%;
+    display:flex;
+    justify-content:center;
+}
+.divmenu{
+    display: flex;
+    justify-content: space-between;
+
+}
